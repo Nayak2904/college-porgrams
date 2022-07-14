@@ -1,0 +1,97 @@
+#include <stdio.h>
+
+int main()
+{
+    int i, n;
+  
+    /* Input upper limit of even number from user */
+    printf("Print all even numbers till: ");
+    scanf("%d", &n);
+
+    printf("Even numbers from 1 to %d are: \n", n);
+
+    /*
+     * Start loop counter from 1, increment it by 1,
+     * will iterate till n
+     */
+    for(i=1; i<=n; i++)
+    {
+        /* Check even condition before printing */
+        if(i%2 == 0)
+        {
+            printf("%d\n", i);
+        }
+    }
+
+    return 0;
+}
+
+reverse:
+#include <stdio.h>    
+     
+int main()    
+{    
+    //Initialize array     
+    int arr[] = {1, 2, 3, 4, 5};     
+        
+    //Calculate length of array arr    
+    int length = sizeof(arr)/sizeof(arr[0]);    
+        
+    printf("Original array: \n");    
+    for (int i = 0; i < length; i++) {     
+        printf("%d ", arr[i]);     
+    }      
+        
+    printf("\n");    
+        
+    printf("Array in reverse order: \n");    
+    //Loop through the array in reverse order    
+    for (int i = length-1; i >= 0; i--) {     
+        printf("%d ", arr[i]);     
+    }     
+    return 0;    
+}    
+
+swap:
+#include <stdio.h>
+ 
+int main()
+{
+   int x, y, *a, *b, temp;
+ 
+   printf("Enter the value of x and y\n");
+   scanf("%d%d", &x, &y);
+ 
+   printf("Before Swapping\nx = %d\ny = %d\n", x, y);
+ 
+   a = &x;
+   b = &y;
+ 
+   temp = *b;
+   *b = *a;
+   *a = temp;
+ 
+   printf("After Swapping\nx = %d\ny = %d\n", x, y);
+ 
+   return 0;
+}
+ vowel counter:
+#include <stdio.h>
+int main()
+{
+  int c = 0, count = 0;
+  char s[1000];
+
+  printf("Input a string\n");
+  gets(s);
+
+  while (s[c] != '\0') {
+    if (s[c] == 'a' || s[c] == 'A' || s[c] == 'e' || s[c] == 'E' || s[c] == 'i' || s[c] == 'I' || s[c] =='o' || s[c]=='O' || s[c] == 'u' || s[c] == 'U')
+      count++;
+    c++;
+  }
+
+  printf("Number of vowels in the string: %d", count);
+
+  return 0;
+}

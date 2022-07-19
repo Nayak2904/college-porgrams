@@ -1,15 +1,16 @@
 #include <iostream>
 using namespace std;
-    inline int cube(int s){
-        return s*s*s;
-    }
+inline int cube(int s)
+{
+    return s * s * s;
+}
 int main()
 {
     int num;
     cout << "Enter any number: "
-    << endl;
+         << endl;
     cin >> num;
     cout << "Cube of " << num << " is " << cube(num)
-    << endl;
+         << endl;
     return 0;
 }

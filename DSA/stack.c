@@ -13,6 +13,9 @@ int main()
     printf("\n Pop operation");
     pop();
     show();
+    pop();
+    show();
+
     // pop();
     // show();
     // pop();

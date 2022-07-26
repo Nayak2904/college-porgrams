@@ -10,7 +10,7 @@ void print(struct node *p)
 {
     while (p != NULL)
     {
-        printf("%d", p->value);
+        printf("%d\n", p->value);
         p = p->next;
     }
 }
@@ -35,5 +35,5 @@ void main()
     three->next = NULL;
 
     head = one;
-    printf("head");
+    print(head);
 }

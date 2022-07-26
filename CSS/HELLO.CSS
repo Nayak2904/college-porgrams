@@ -1,0 +1,29 @@
+h1 {
+    font-size: 10rem;
+    letter-spacing: 1px;
+    font-weight: bold;
+
+    background: url('/Dark\ Knight\ Rises\ HD\ Wallpapers\ and\ Desktop\ Backgrounds\ Dark\ Knight.jpg');
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: text 7.5s linear infinite;
+    text-align: center;
+
+}
+
+body {
+    display: grid;
+    place-items: center;
+    font-family: 'Oswald', sans-serif;
+}
+
+@keyframes text {
+    from {
+        background-position: 0% 50%;
+    }
+
+    to {
+        background-position: 10% 100%;
+    }
+}

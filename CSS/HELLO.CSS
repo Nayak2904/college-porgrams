@@ -3,11 +3,11 @@ h1 {
     letter-spacing: 1px;
     font-weight: bold;
 
-    background: url('/Dark\ Knight\ Rises\ HD\ Wallpapers\ and\ Desktop\ Backgrounds\ Dark\ Knight.jpg');
+    background: url('/red\ dark.jpg');
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
-    animation: text 7.5s linear infinite;
+    animation: text 10s none infinite;
     text-align: center;
 
 }
@@ -16,6 +16,9 @@ body {
     display: grid;
     place-items: center;
     font-family: 'Oswald', sans-serif;
+    background-image: url(/wp9429748-batman-2022-wallpapers.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 
 @keyframes text {

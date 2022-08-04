@@ -41,3 +41,6 @@ void show()
 
         stack[j] != 0 ? printf("\n%d", stack[j]) : printf(" ");
 }
+void add(){
+    
+}

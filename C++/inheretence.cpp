@@ -4,7 +4,7 @@ class base
 {
 protected:
     int age;
-    char name[20];
+    char name[30];
 };
 class derived : public base
 {

@@ -13,6 +13,18 @@ void inorderTrversal(struct node* root){
     printf("%d ->", root->item);
     inorderTrversal(root->right);
 }
+void preorderTrversal(struct node* root){
+    if(root == NULL) return;
+    printf("%d ->", root->item);  
+    inorderTrversal(root->left);
+    inorderTrversal(root->right);
+}
+void postorderTrversal(struct node* root){
+    if(root == NULL) return;
+    inorderTrversal(root->right);
+    inorderTrversal(root->left);
+    printf("%d ->", root->item);
+}
 struct node* createNode(int value){
     struct node* newNode = malloc(sizeof(struct node));
     newNode->item = value;
@@ -39,5 +51,12 @@ int main(){
 
     printf("InorderTravesal\n");
     inorderTrversal(root);
+
+    printf("\nPreorderTravesal\n");
+    preorderTrversal(root);
+
+    printf("\nPostrderTravesal\n");
+    postorderTrversal(root);
+    
     return 0;
 }

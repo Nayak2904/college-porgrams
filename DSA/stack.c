@@ -15,11 +15,6 @@ int main()
     show();
     pop();
     show();
-
-    // pop();
-    // show();
-    // pop();
-    // show();
 }
 void push(int j)
 {

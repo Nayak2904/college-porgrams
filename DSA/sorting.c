@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <math.h>
-
+#include <cstdlib>
 int random_num()
 {
     int num = (rand() % (50 - 0 + 1)) + 0;

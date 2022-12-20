@@ -1,6 +1,9 @@
+import java.util.Scanner;
 public class prime {
     public static void main(String[] args) {
-        int num = 4;
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter a number to check Prime or not: ");
+        int num = sc.nextInt();
         boolean flag = false;
         for(int i = 2; i<= num/2;++i){
             //condition for non prime number
@@ -10,10 +13,10 @@ public class prime {
             }
         }
         if (!flag) 
-            System.out.println(num+ " is a prime number");
+            System.out.println(num+ " is a prime number.");
         
         else
-            System.out.println(num+ " is not a prime number");
+            System.out.println(num+ " is not a prime number.");
         
     }
 }

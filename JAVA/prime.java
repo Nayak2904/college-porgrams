@@ -1,13 +1,8 @@
 import java.util.Scanner;
 public class prime {
     public static void main(String[] args) {
-<<<<<<< HEAD
       Scanner sc = new Scanner(System.in);
     System.out.println("ENter a number to check: ");
-=======
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Enter a number to check Prime or not: ");
->>>>>>> 12516335a3677d226c89d76d487f412a04cb1996
         int num = sc.nextInt();
         boolean flag = false;
         for(int i = 2; i<= num/2;++i){

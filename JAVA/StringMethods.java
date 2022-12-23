@@ -1,9 +1,12 @@
+import java.util.Scanner;
+
 import javax.lang.model.type.NoType;
 
 public class StringMethods {
     public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
         System.out.println(":::String Methods:::\n");
-        String name = "Shiva";
+        String name = sc.next();
         System.out.println("Length of the String is: "+ name.length());
 
         System.out.println("\nMake String to LowerCase: "+name.toLowerCase());

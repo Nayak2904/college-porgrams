@@ -1,7 +1,13 @@
+import java.util.Scanner;
+
 public class decimaltobinary {
     public static void main(String[] args) {
-        System.out.println(Integer.toBinaryString(10));
-        System.out.println(Integer.toBinaryString(20));
-        System.out.println(Integer.toBinaryString(6));
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter a number to convert it into Binary: ");
+        int num = sc.nextInt();
+        
+        System.out.println("Binary form of "+num +" is "+Integer.toBinaryString(num));
+        // System.out.println(Integer.toBinaryString(num));
+        // System.out.println(Integer.toBinaryString(num));
     }
 }

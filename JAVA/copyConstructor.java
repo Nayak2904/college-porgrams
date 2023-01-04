@@ -1,6 +1,4 @@
-/**
- * copyConstructor
- */
+
 public class copyConstructor {
 
     int id;

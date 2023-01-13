@@ -1,1 +1,4 @@
-System.out.println();
+n.setN("Dog");
+        // n.getN();
+
+        // s.getSound();

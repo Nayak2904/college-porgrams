@@ -9,12 +9,14 @@ class Base{
     
 }
 class Child extends Base{
-    int marks;
+    public int marks;
     public int getMarks(){
         return marks;
+
     }
     public int setMarks(int m){
         this.marks = m;
+        return marks;
         }
     
 }
